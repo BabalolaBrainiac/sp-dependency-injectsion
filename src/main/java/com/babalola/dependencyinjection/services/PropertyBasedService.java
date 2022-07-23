@@ -3,7 +3,6 @@ package com.babalola.dependencyinjection.services;
 
 import org.springframework.stereotype.Service;
 
-@Service
 public class PropertyBasedService implements GreetingService{
 
     @Override

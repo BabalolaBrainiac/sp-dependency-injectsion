@@ -10,7 +10,7 @@ public class ConstructorBasedInjection {
 
    public final GreetingService greetingService;
 
-    public ConstructorBasedInjection( @Qualifier("constructorBasedService") GreetingService greetingService) {
+    public ConstructorBasedInjection (GreetingService greetingService) {
         this.greetingService = greetingService;
     }
 

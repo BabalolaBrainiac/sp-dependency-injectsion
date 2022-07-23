@@ -10,7 +10,7 @@ public class ProfileBasedInjection {
 
     public final GreetingService greetingService;
 
-    public ProfileBasedInjection(@Qualifier("ProfileService")GreetingService greetingService) {
+    public ProfileBasedInjection(GreetingService greetingService) {
         this.greetingService = greetingService;
     }
 
